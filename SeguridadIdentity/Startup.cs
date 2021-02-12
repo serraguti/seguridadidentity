@@ -40,6 +40,7 @@ namespace MvcCore
             app.UseRouting();
 
             app.UseStaticFiles();
+            app.UseAuthentication();
             app.UseMvc(routes =>
             {
                 routes.MapRoute(
